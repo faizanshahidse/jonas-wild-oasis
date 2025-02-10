@@ -5,11 +5,10 @@ import styles from './AppLayout.module.scss';
 
 function AppLayout() {
   return (
-    <div>
-      <div>App Layout...</div>
+    <div className={styles.top}>
       <Header />
       <Sidebar />
-      <main className={styles.outlet__container}>
+      <main className={styles.outlet}>
         <Outlet />
       </main>
     </div>
