@@ -6,6 +6,7 @@ function Logo() {
         src="/logo.png"
         alt="Logo"
       />
+      <p>THE WILD OASIS</p>
     </div>
   );
 }
